@@ -356,16 +356,16 @@ section {
 }
 
 .reward_1 {
-  background-image: url("assets/images/reward_1.png");
+  background-image: url("assets/images/reward_1.webp");
   aspect-ratio: 504 / 875 !important;
 }
 
 .reward_2 {
-  background-image: url("assets/images/reward_2.png");
+  background-image: url("assets/images/reward_2.webp");
 }
 
 .reward_3 {
-  background-image: url("assets/images/reward_2.png");
+  background-image: url("assets/images/reward_2.webp");
 }
 
 .reward_1,
