@@ -122,7 +122,7 @@ header h2 {
 }
 
 .nav-list li a:hover {
-  border: 1px solid #dcdbdb;
+  border: 1px solid #d6d5d5;
 }
 
 .nav-list li a.active {
@@ -336,6 +336,20 @@ section {
   justify-content: space-between;
 }
 
+.project-stack-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-stack-items span {
+  font-size: 14px;
+  padding: 0px 5px;
+  padding-top: 1.5px;
+  border-radius: 10px;
+  border: 1px solid #d6d5d5;
+}
+
 /* achievemnets */
 
 .achievements-container {
@@ -365,7 +379,8 @@ section {
 }
 
 .reward_3 {
-  background-image: url("assets/images/reward_2.webp");
+  background-image: url("assets/images/reward_3.webp");
+  aspect-ratio: 457 / 566 !important;
 }
 
 .reward_1,
@@ -490,6 +505,10 @@ section {
   .social-links-container {
     align-self: flex-start;
     flex: 0 0 300px;
+  }
+
+  .project-stack-items span {
+    font-size: 12px;
   }
 
   .achievements-container .rewards {
