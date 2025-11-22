@@ -119,6 +119,7 @@ header h2 {
   text-align: center;
   border-radius: 100px;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .nav-list li a:hover {
@@ -427,8 +428,9 @@ section {
   border-radius: 10px;
   border: 2px solid #f48e5b;
   flex: 0 1 500px;
-  height: 400px;
-  overflow-y: scroll;
+  height: 410px;
+  overflow-y: hidden;
+  background-color: #fff;
 }
 
 .gist-title {

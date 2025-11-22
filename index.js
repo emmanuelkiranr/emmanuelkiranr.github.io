@@ -2,10 +2,6 @@ const sections = document.querySelectorAll("section");
 const navigation = document.querySelector("nav").querySelectorAll("a");
 const toggleBtn = document.querySelector(".toggle-menu");
 const navlist = document.querySelector(".nav-list");
-const iframe = document.getElementById("linkedin-embed");
-const embedError = document.querySelector(".blocked");
-
-let loaded = false;
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -34,21 +30,3 @@ toggleBtn.addEventListener("click", () => {
   toggleBtn.setAttribute("aria-expanded", String(!isOpen));
   navlist.classList.toggle("open");
 });
-
-iframe.onload = () => {
-  loaded = true;
-};
-
-iframe.onerror = () => {
-  showError();
-};
-
-setTimeout(() => {
-  if (!loaded) {
-    showError();
-  }
-}, 4000);
-
-function showError() {
-  embedError.style.display = "block";
-}
