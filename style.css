@@ -438,7 +438,8 @@ header .toggle-menu {
 }
 
 .reward_1:hover,
-.reward_2:hover {
+.reward_2:hover,
+.reward_3:hover {
   cursor: pointer;
   opacity: 0.8;
 }
