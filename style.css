@@ -677,8 +677,4 @@ header .toggle-menu {
   .timeline-container .icon-text .ext-link {
     margin-bottom: 5px;
   }
-
-  .timeline-container .title:has(span) .icon-text h3 {
-    width: min-content;
-  }
 }
